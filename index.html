@@ -8,7 +8,7 @@
   <body>
 
     <header class="main-header">
-      <img class="logo" src="img/logo.png" width="163" height="36">
+      <img class="logo" src="img/logo.png" width="163" height="36" alt="девайс-лого">
 
       <div class="user-nav">
         <div class="user-nav__item">
@@ -27,7 +27,27 @@
 
       <ul class="main-nav">
         <li class="main-nav__item">
-          <a href="#">Каталог товаров</a>
+          <a href="catalog.html">Каталог товаров</a>
+          <ul class="main-nav__catalog">
+            <li class="main-nav__catalog-item">
+              <a href="#">Виртуальная реальность</a>
+            </li>
+            <li class="main-nav__catalog-item">
+              <a href="#">Моноподы для селфи</a>
+            </li>
+            <li class="main-nav__catalog-item">
+              <a href="#">Экшн-камеры</a>
+            </li>
+            <li class="main-nav__catalog-item">
+              <a href="#">Фитнес-браслеты</a>
+            </li>
+            <li class="main-nav__catalog-item">
+              <a href="#">Умные часы</a>
+            </li>
+            <li class="main-nav__catalog-item">
+              <a href="#">Квадрокоптеры</a>
+            </li>
+          </ul>
         </li>
         <li class="main-nav__item">
           <a href="#">Доставка</a>
@@ -46,7 +66,7 @@
       <div class="slider-container">
 
         <div class="slider">
-          <img class="slider__image" src="img/slider-1.png" width="384" height="486">
+          <img class="slider__image" src="img/slider-1.png" width="384" height="486" alt="селфи-палка">
           <p class="slider__caption">Делай селфи,как Бен Стиллер!</p>
           <p class="default-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
           <a href="#">Подробнее</a>
@@ -65,7 +85,7 @@
         </div>
 
         <div class="slider">
-          <img class="slider__image" src="img/slider-2.png" width="385" height="485">
+          <img class="slider__image" src="img/slider-2.png" width="385" height="485" alt="фитнес браслет">
           <p class="slider__caption">Худеем правильно!</p>
           <p class="default-text">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
           <a href="#">Подробнее</a>
@@ -80,7 +100,7 @@
         </div>
 
         <div class="slider">
-          <img class="slider__image" src="img/slider-3.png" width="526" height="334">
+          <img class="slider__image" src="img/slider-3.png" width="526" height="334" alt="квадрокоптер">
           <p class="slider__caption">Порхает как бабочка, жалит как пчела!</p>
           <p class="default-text">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
           <a href="#">Подробнее</a>
@@ -98,39 +118,43 @@
 
       </div>
 
+      <h2 class="visually-hidden">Популярные товары</h2>
+
       <div class="popular">
 
-        <div class="popular__item">
+        <a href="#" class="popular__item">
           <div class="popular__pic"></div>
           <p>Виртуальная реальность</p>
-        </div>
+        </a>
 
-        <div class="popular__item">
+        <a href="#" class="popular__item">
           <div class="popular__pic"></div>
           <p>Моноподы для селфи</p>
-        </div>
+        </a>
 
-        <div class="popular__item">
+        <a href="#" class="popular__item">
           <div class="popular__pic"></div>
           <p>Экшн-камеры</p>
-        </div>
+        </a>
 
-        <div class="popular__item">
+        <a href="#" class="popular__item">
           <div class="popular__pic"></div>
           <p>Фитнес-браслеты</p>
-        </div>
+        </a>
 
-        <div class="popular__item">
+        <a href="#" class="popular__item">
           <div class="popular__pic"></div>
           <p>Умные часы</p>
-        </div>
+        </a>
 
-        <div class="popular__item">
+        <a href="#" class="popular__item">
           <div class="popular__pic"></div>
           <p>Квадрокоптеры</p>
-        </div>
+        </a>
 
       </div>
+
+      <h2 class="visually-hidden">Сервисы</h2>
 
       <div class="services">
         <ul class="services__list">
@@ -161,11 +185,13 @@
         </div>
       </div>
 
+      <h2 class="visually-hidden">Логотипы</h2>
+
       <ul class="logos">
-        <li class="logos__item"><img src="img/logo-1.jpg" width="260" height="100"></li>
-        <li class="logos__item"><img src="img/logo-2.jpg" width="260" height="100"></li>
-        <li class="logos__item"><img src="img/logo-3.jpg" width="260" height="100"></li>
-        <li class="logos__item"><img src="img/logo-4.jpg" width="260" height="100"></li>
+        <li class="logos__item"><img src="img/logo-1.jpg" width="260" height="100" alt="лого-1"></li>
+        <li class="logos__item"><img src="img/logo-2.jpg" width="260" height="100" alt="лого-2"></li>
+        <li class="logos__item"><img src="img/logo-3.jpg" width="260" height="100" alt="лого-3"></li>
+        <li class="logos__item"><img src="img/logo-4.jpg" width="260" height="100" alt="лого-4"></li>
       </ul>
 
       <div class="info">
@@ -177,20 +203,20 @@
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a class="info__link" href="#">Подробнее о нас</a>
+        <a href="#" class="info__link" href="#">Подробнее о нас</a>
       </div>
 
       <div class="contact">
         <h2 class="contact__title">Контакты</h2>
         <p class="default-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-        <img src="img/map.jpg" width="560" height="222">
-        <a class="contact__link">Напишите нам</a>
+        <a href="#"><img src="img/map.jpg" width="560" height="222" alt="улица Строителей 15"></a>
+        <a href="#" class="contact__link">Напишите нам</a>
       </div>
 
     </main>
 
     <footer class="main-footer">
-      <img src="img/logo-footer.png" width="163" height="36">
+      <img src="img/logo-footer.png" width="163" height="36" alt="девайс-лого">
       <div class="footer-user-nav">
         <div class="footer-user-nav__item">
           <a href="#">Войти</a>
@@ -221,13 +247,30 @@
 
       <div>
         <ul class="social">
-          <li class="social__item"></li>
-          <li class="social__item"></li>
-          <li class="social__item"></li>
+          <li class="social__item"><a href="#" aria-label="Facebook"></a></li>
+          <li class="social__item"><a href="#" aria-label="Instagram"></a></li>
+          <li class="social__item"><a href="#" aria-label="Twitter"></a></li>
         </ul>
 
-        <img class="htmlacademy-logo" src="img/logo-html.svg" width="27" height="35">
+        <a href="https://htmlacademy.ru/intensive/htmlcss"><img class="htmlacademy-logo" src="img/logo-html.svg" width="27" height="35" alt="htmlacademy-logo"></a>
       </div>
     </footer>
+
+    <div class="popup-write-us">
+      <button class="btn-close" type="button" value="close" aria-label="button-close"></button>
+      <form class="write-us-form" method="get" action="https://echo.htmlacademy.ru">
+        <label class="write-us-form__label" for="name">Ваше имя</label>
+        <input class="write-us-form__input" type="text" id="name" placeholder="Имя Фамилия">
+        <label class="write-us-form__label" for="email">Ваш e-mail</label>
+        <input class="write-us-form__input" type="email" id="email" placeholder="email@example.com">
+        <label class="write-us-form__label" for="write-us">Текст письма</label>
+        <textarea class="write-us-form__textarea" placeholder="В свободной форме" rows="4" id="write-us"></textarea>
+        <button class="write-us-form__btn" type="submit" value="Отправить">Отправить</button>
+      </form>
+    </div>
+
+    <div class="popup-map">
+      <img src="img/map.jpg" width="560" height="222" alt="улица Строителей 15">
+    </div>
   </body>
 </html>

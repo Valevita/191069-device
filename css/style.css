@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url("../fonts/gilroyextrabold-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url("../fonts/gilroylight-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  color: #464646;
+}
+
+.button {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.main-header {
+  background-color: #f7e296;
+}
+
+.logo {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 800;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+.logo:active {
+  opacity: 0.3;
+}
+
+.user-nav__link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.user-nav__link:hover {
+  opacity: 0.6;
+}
+
+.user-nav__link:active {
+  opacity: 0.3;
+}
+
+.user-nav__link:first-child {
+  opacity: 0.3;
+}
+
+.user-nav__link:first-child:hover {
+  opacity: 0.6;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.main-nav__link {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-nav__link:hover {
+  opacity: 0.6;
+}
+
+.main-nav__link:active {
+  opacity: 0.3;
+}
+
+.main-nav__catalog {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__catalog-link {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-nav__catalog-link:hover {
+  opacity: 0.6;
+}
+
+.main-nav__catalog-link:active {
+  opacity: 0.3;
+}
+
+.slider__number {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 179px;
+  line-height: 179px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.slider__caption {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 47px;
+  line-height: 56px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.slider__table-contents {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.slider__table-header {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.popular__item {
+  display: block;
+  text-decoration: none;
+}
+
+.popular__pic {
+  width: 160px;
+  height: 160px;
+  background-color: #f0c52e;
+  opacity: 0.5;
+}
+
+.popular__pic:hover {
+  width: 160px;
+  height: 160px;
+  background-color: #f0c52e;
+  opacity: 1;
+}
+
+.popular__text {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.services {
+  background-color: #e5e5e5;
+}
+
+.services__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services__link {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.services__caption {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.logos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logos__item:hover {
+  filter: grayscale(1);
+  opacity: 0.2;
+}
+
+.info__title {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.contact__title {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.info-company {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.main-footer {
+  background-color: #464646;
+  color: #ffffff;
+}
+
+.footer-user-nav__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav__link {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-logo {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 800;
+  color: #ffc600;
+}
+
+.footer-logo:hover {
+  opacity: 0.6;
+}
+
+.footer-logo:active {
+  opacity: 0.3;
+}
+
+.write-us-form__label {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.write-us-form__btn {
+  border: none;
+  background: none;
+}
+
+
+
+
+.main-heading {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs__link {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.filter {
+  background-color: #efefef;
+}
+
+.filter__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.filter__title {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter__name {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.filter__label {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.filter-btn {
+  border: none;
+  background: none;
+}
+
+.sort {
+  background-color: #ebebeb;
+}
+
+.sort__title {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sort__wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sort__link {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.sort__item {
+  opacity: 0.3;
+}
+
+.sort__item:first-child {
+  opacity: 1;
+}
+
+.item__name {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000000;
+}
+
+.item__price {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #464646;
+}
+
+.page-nav {
+  background-color: #ebebeb;
+}
+
+.page-nav__text {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.page-nav__text-num {
+  opacity: 0.3;
+}
+
+.page-nav__text-num:first-child {
+  opacity: 1;
+}
